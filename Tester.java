@@ -15,8 +15,13 @@ public class Tester {
 		Pair<String> twoPair = Utils.getMinMax(twoValue);
 		Pair<Double> singlePair = Utils.getMinMax(singleValue);
 		
+		System.out.println("Original Array: " + multipleValue);
 		System.out.println("Min value: " + multiplePair.getFirst() + ", Max value: " + multiplePair.getSecond());
+		
+		System.out.println("Original Array: " + twoValue);
 		System.out.println("Min value: " + twoPair.getFirst() + ", Max value: " + twoPair.getSecond());
+		
+		System.out.println("Original Array: " + singleValue);
 		System.out.println("Min value: " + singlePair.getFirst() + ", Max value: " + singlePair.getSecond());
 	}
 }
